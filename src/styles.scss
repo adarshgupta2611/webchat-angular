@@ -1,0 +1,10 @@
+@import "../node_modules/bootstrap/scss/functions.scss";
+
+// Default variable overrides
+$spacer : 2rem;
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+body{
+    box-sizing: border-box;
+}
