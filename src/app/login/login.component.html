@@ -2,15 +2,11 @@
 
 <div class="p-3 border rounded-2 shadow-lg  d-flex flex-column align-items-center justify-content-center gap-3">
     <form (ngSubmit)="handleFormClick(f)" #f=ngForm>
-        <h3>Login with your Email and Password</h3>
+        <h3>Login with your Username</h3>
         <hr class="border-2 border-primary mt-0">
         <div class="mb-3">
           <label class="form-label">Username</label>
           <input required type="text" class="form-control" ngModel name="user">
-        </div>
-        <div class="mb-3">
-          <label class="form-label">Password</label>
-          <input required type="password" name="password" ngModel class="form-control">
         </div>
         <button type="submit" class="btn btn-primary">Login</button>
       </form>

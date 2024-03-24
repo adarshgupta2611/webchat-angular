@@ -15,6 +15,6 @@ export class HomeComponent {
   }
 
   handleLoginClick(){
-    this.router.navigate(['/chat']);
+    this.router.navigate(['/login']);
   }
 }
